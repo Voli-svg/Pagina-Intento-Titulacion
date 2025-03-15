@@ -1,4 +1,4 @@
-import './navbar.css';
+import 'src/components/atomo/';
 const Navbar = ({ setbusqueda, sortMayorMenor, sortMenorMayor, filterByAssociation }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
