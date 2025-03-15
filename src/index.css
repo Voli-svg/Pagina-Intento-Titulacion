@@ -1,0 +1,108 @@
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4e73df, #1e2a47);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+
+.main-content {
+  flex-grow: 1;
+}
+
+
+.footer {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+
+
+
+button {
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #646cff;
+  color: rgba(255, 255, 255, 0.425);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #535bf2;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+  outline: 3px solid #535bf2;
+}
+
+
+.GitUser {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+  margin: 15px auto;
+  margin-top: 80px;
+}
+
+.GitUser:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.GitUser h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .GitUser {
+    width: 90%;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .GitUser {
+    width: 95%;
+  }
+}

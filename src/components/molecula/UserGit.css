@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+.GitUser{    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(253, 251, 251, 0.3); /* Sombra para darle profundidad */
+    border: 1px solid #fff7f7; /* Borde sutil */
+    max-width: 400px; /* Tamaño máximo */
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
